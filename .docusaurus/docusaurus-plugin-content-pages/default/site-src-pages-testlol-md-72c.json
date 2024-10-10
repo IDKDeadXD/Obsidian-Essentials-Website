@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/testlol",
+  "source": "@site/src/pages/testlol.md",
+  "title": "error",
+  "description": "---",
+  "frontMatter": {
+    "title": "error"
+  },
+  "unlisted": false
+}

@@ -1,0 +1,19 @@
+{
+  "id": "Admin Panel/Warps",
+  "title": "Public Warps",
+  "description": "",
+  "source": "@site/docs/Admin Panel/Warps.md",
+  "sourceDirName": "Admin Panel",
+  "slug": "/Admin Panel/Warps",
+  "permalink": "/docs/Admin Panel/Warps",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Admin Panel Disappearing",
+    "permalink": "/docs/Admin Panel/admin_issue"
+  }
+}

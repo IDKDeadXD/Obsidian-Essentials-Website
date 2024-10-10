@@ -1,0 +1,37 @@
+{
+  "permalink": "/blog/test",
+  "source": "@site/blog/2019-05-29-long-blog-post.md",
+  "title": "First Post Lol",
+  "description": "",
+  "date": "2019-05-29T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "Dev Post",
+      "permalink": "/blog/tags/dev-post"
+    }
+  ],
+  "readingTime": 0,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Dead",
+      "title": "Head Developer",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+      "imageURL": "https://github.com/idkdead.png",
+      "key": "dead"
+    }
+  ],
+  "frontMatter": {
+    "slug": "test",
+    "title": "First Post Lol",
+    "authors": "dead",
+    "tags": [
+      "Dev Post"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "MDX Blog Post",
+    "permalink": "/blog/mdx-blog-post"
+  }
+}

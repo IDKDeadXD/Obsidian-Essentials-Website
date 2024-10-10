@@ -1,0 +1,68 @@
+/* src/components/DownloadSection.css */
+
+.download-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+  }
+  
+  .download-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .download-header h1 {
+    color: #fff;
+  }
+  
+  .download-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: background-color 0.3s;
+  }
+  
+  .download-button:hover {
+    background-color: #45a049;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .options select,
+  .options input {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 48%;
+  }
+  
+  .description {
+    margin-top: 20px;
+    background-color: #444;
+    padding: 15px;
+    border-radius: 8px;
+    color: #ddd;
+  }
+  
+  .description p {
+    margin: 0;
+    font-size: 16px;
+  }
+  

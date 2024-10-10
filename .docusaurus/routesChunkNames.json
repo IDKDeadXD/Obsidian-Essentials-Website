@@ -1,0 +1,151 @@
+{
+  "/__docusaurus/debug-3c7": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debuge-54-d2d"
+    }
+  },
+  "/__docusaurus/debug/config-366": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debuge-54-d2d"
+    }
+  },
+  "/__docusaurus/debug/content-4c2": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debuge-54-d2d"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-e4a": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debuge-54-d2d"
+    }
+  },
+  "/__docusaurus/debug/metadata-80c": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debuge-54-d2d"
+    }
+  },
+  "/__docusaurus/debug/registry-d2c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debuge-54-d2d"
+    }
+  },
+  "/__docusaurus/debug/routes-d28": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debuge-54-d2d"
+    }
+  },
+  "/blog-ab7": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blogbef-17c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogcec-5a9"
+      },
+      {
+        "content": "content---blogf-7-a-b0b"
+      }
+    ],
+    "metadata": "metadata---blogb-2-b-df1"
+  },
+  "/blog/archive-1b5": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---blogbef-17c"
+    },
+    "archive": "archive---blog-archiveb-2-f-393"
+  },
+  "/blog/docs-info-update-8ac": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-website-announcementace-e5a"
+      },
+      "plugin": "plugin---blogbef-17c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-10-10-2024-af-6-fe9"
+  },
+  "/blog/tags-b15": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---blogbef-17c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "tags": "tags---blog-tagsa-70-da2"
+  },
+  "/blog/tags/website-f72": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blogbef-17c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogcec-5a9"
+      },
+      {
+        "content": "content---blogf-7-a-b0b"
+      }
+    ],
+    "tag": "tag---blog-tags-websitea-49-cdb",
+    "listMetadata": "listMetadata---blog-tags-websiteef-5-e1c"
+  },
+  "/blog/website-announcement-256": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-website-announcementace-e5a"
+      },
+      "plugin": "plugin---blogbef-17c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-website-announcement-19-f-95f"
+  },
+  "/docs-a76": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsbc-9-e87"
+    }
+  },
+  "/docs-687": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---docs-935-398"
+  },
+  "/docs-279": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/Admin Panel/admin_issue-c4e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-admin-panel-admin-issue-847-4e8"
+  },
+  "/docs/Admin Panel/Server_Shutdown-98b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-admin-panel-server-shutdownfcb-7d5"
+  },
+  "/docs/Custom_Commands-7df": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-custom-commands-5-e-6-fda"
+  },
+  "/docs/Getting_Started-30e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-24-a-d7c"
+  },
+  "/-031": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---ed-3-163"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

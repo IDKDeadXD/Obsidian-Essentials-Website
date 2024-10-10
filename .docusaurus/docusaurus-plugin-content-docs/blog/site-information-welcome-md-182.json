@@ -1,0 +1,19 @@
+{
+  "id": "welcome",
+  "title": "New Thing",
+  "description": "",
+  "source": "@site/information/welcome.md",
+  "sourceDirName": ".",
+  "slug": "/welcome",
+  "permalink": "/information/welcome",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Feature Requests",
+    "permalink": "/information/forums"
+  }
+}

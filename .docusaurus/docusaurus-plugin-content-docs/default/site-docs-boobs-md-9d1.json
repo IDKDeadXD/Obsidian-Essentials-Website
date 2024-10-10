@@ -1,0 +1,19 @@
+{
+  "id": "Boobs",
+  "title": "Boobs",
+  "description": "",
+  "source": "@site/docs/Boobs.md",
+  "sourceDirName": ".",
+  "slug": "/Boobs",
+  "permalink": "/docs/Boobs",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "FAQ",
+    "permalink": "/docs/Getting_Started"
+  }
+}

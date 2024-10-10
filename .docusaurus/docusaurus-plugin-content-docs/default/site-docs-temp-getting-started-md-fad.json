@@ -1,0 +1,19 @@
+{
+  "id": "temp/Getting_Started",
+  "title": "FAQ",
+  "description": "Developed by Dead",
+  "source": "@site/docs/temp/Getting_Started.md",
+  "sourceDirName": "temp",
+  "slug": "/temp/Getting_Started",
+  "permalink": "/docs/temp/Getting_Started",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Custom Commands",
+    "permalink": "/docs/temp/Custom_Commands"
+  }
+}

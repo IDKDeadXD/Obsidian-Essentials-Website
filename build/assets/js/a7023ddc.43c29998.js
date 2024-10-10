@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrealm_essentials_website=self.webpackChunkrealm_essentials_website||[]).push([[267],{8289:e=>{e.exports=JSON.parse('[{"label":"Dev Post","permalink":"/blog/tags/dev-post","count":1}]')}}]);

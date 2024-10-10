@@ -1,0 +1,284 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\johnn\\OneDrive\\Desktop\\realm-essentials-website-main\\sidebars.js",
+          "contentPath": "C:\\Users\\johnn\\OneDrive\\Desktop\\realm-essentials-website-main\\docs",
+          "contentPathLocalized": "C:\\Users\\johnn\\OneDrive\\Desktop\\realm-essentials-website-main\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "Admin Panel/admin_issue",
+              "title": "Admin Panel Disappearing",
+              "description": "this is the admin panel protection system, this means your not a admin",
+              "source": "@site/docs/Admin Panel/admin_issue.md",
+              "sourceDirName": "Admin Panel",
+              "slug": "/Admin Panel/admin_issue",
+              "permalink": "/docs/Admin Panel/admin_issue",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Server Shutdown",
+                "permalink": "/docs/Admin Panel/Server_Shutdown"
+              },
+              "next": {
+                "title": "Custom Commands",
+                "permalink": "/docs/Custom_Commands"
+              }
+            },
+            {
+              "id": "Admin Panel/Server_Shutdown",
+              "title": "Server Shutdown",
+              "description": "The Server Shutdown System enables you to temporarily close your realm, allowing access only to specific players or tags. This feature is perfect for performing maintenance tasks like fixing the spawn area or adding new kits efficiently.",
+              "source": "@site/docs/Admin Panel/Server_Shutdown.md",
+              "sourceDirName": "Admin Panel",
+              "slug": "/Admin Panel/Server_Shutdown",
+              "permalink": "/docs/Admin Panel/Server_Shutdown",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Admin Panel Disappearing",
+                "permalink": "/docs/Admin Panel/admin_issue"
+              }
+            },
+            {
+              "id": "Custom_Commands",
+              "title": "Custom Commands",
+              "description": "How To Access All Commands?",
+              "source": "@site/docs/Custom_Commands.md",
+              "sourceDirName": ".",
+              "slug": "/Custom_Commands",
+              "permalink": "/docs/Custom_Commands",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Admin Panel Disappearing",
+                "permalink": "/docs/Admin Panel/admin_issue"
+              },
+              "next": {
+                "title": "FAQ",
+                "permalink": "/docs/Getting_Started"
+              }
+            },
+            {
+              "id": "Getting_Started",
+              "title": "FAQ",
+              "description": "Developed by Dead",
+              "source": "@site/docs/Getting_Started.md",
+              "sourceDirName": ".",
+              "slug": "/Getting_Started",
+              "permalink": "/docs/Getting_Started",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Custom Commands",
+                "permalink": "/docs/Custom_Commands"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "Admin Panel",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Admin Panel/Server_Shutdown"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Admin Panel/admin_issue"
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "id": "Custom_Commands"
+              },
+              {
+                "type": "doc",
+                "id": "Getting_Started"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "docs-info-update",
+          "metadata": {
+            "permalink": "/blog/docs-info-update",
+            "source": "@site/blog/10-10-2024.md",
+            "title": "Doc's Info",
+            "description": "The website docs will take a while to get setup but i do hope to get it finished soon, I hope you all have a amazing time using my add-on!",
+            "date": "2024-10-10T20:52:38.326Z",
+            "tags": [
+              {
+                "label": "Website",
+                "permalink": "/blog/tags/website"
+              }
+            ],
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Dead",
+                "title": "Head Developer",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+                "imageURL": "https://cdn.discordapp.com/avatars/609579584987594754/125a7f7830cf0255fb2b6344b451f4fd?size=1024",
+                "key": "dead"
+              }
+            ],
+            "frontMatter": {
+              "slug": "docs-info-update",
+              "title": "Doc's Info",
+              "authors": "dead",
+              "tags": [
+                "Website"
+              ]
+            },
+            "unlisted": false,
+            "nextItem": {
+              "title": "Website News!",
+              "permalink": "/blog/website-announcement"
+            }
+          },
+          "content": "The website docs will take a while to get setup but i do hope to get it finished soon, I hope you all have a amazing time using my add-on! \r\n\r\nAnd if you need help join our [Discord](https://discord.gg/ud6jxE2mTy)!"
+        },
+        {
+          "id": "website-announcement",
+          "metadata": {
+            "permalink": "/blog/website-announcement",
+            "source": "@site/blog/04-20-2024.md",
+            "title": "Website News!",
+            "description": "Hi Guys! the website it in beta rn so please lm if you find any bugs!",
+            "date": "2024-10-04T21:52:52.000Z",
+            "tags": [
+              {
+                "label": "Website",
+                "permalink": "/blog/tags/website"
+              }
+            ],
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Dead",
+                "title": "Head Developer",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+                "imageURL": "https://cdn.discordapp.com/avatars/609579584987594754/125a7f7830cf0255fb2b6344b451f4fd?size=1024",
+                "key": "dead"
+              }
+            ],
+            "frontMatter": {
+              "slug": "website-announcement",
+              "title": "Website News!",
+              "authors": "dead",
+              "tags": [
+                "Website"
+              ]
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "Doc's Info",
+              "permalink": "/blog/docs-info-update"
+            }
+          },
+          "content": "Hi Guys! the website it in beta rn so please lm if you find any bugs!\n\nalso please give me feedback on how you feel about it!"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "docs-info-update",
+            "website-announcement"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 2,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/website": {
+          "label": "Website",
+          "items": [
+            "docs-info-update",
+            "website-announcement"
+          ],
+          "permalink": "/blog/tags/website",
+          "pages": [
+            {
+              "items": [
+                "docs-info-update",
+                "website-announcement"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/website",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

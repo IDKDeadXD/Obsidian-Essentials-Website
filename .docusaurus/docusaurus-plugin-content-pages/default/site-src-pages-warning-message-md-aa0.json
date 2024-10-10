@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/warning_message",
+  "source": "@site/src/pages/warning_message.md",
+  "title": "error",
+  "description": "---",
+  "frontMatter": {
+    "title": "error"
+  },
+  "unlisted": false
+}

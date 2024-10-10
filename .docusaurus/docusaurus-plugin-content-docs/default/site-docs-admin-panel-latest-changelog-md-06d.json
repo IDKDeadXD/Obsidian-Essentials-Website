@@ -1,0 +1,19 @@
+{
+  "id": "Admin Panel/Latest_Changelog",
+  "title": "Latest_Changelog",
+  "description": "",
+  "source": "@site/docs/Admin Panel/Latest_Changelog.md",
+  "sourceDirName": "Admin Panel",
+  "slug": "/Admin Panel/Latest_Changelog",
+  "permalink": "/docs/Admin Panel/Latest_Changelog",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Server Shutdown",
+    "permalink": "/docs/Admin Panel/Server_Shutdown"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "Latest_Changelog",
+  "title": "Latest_Changelog",
+  "description": "",
+  "source": "@site/docs/Latest_Changelog.md",
+  "sourceDirName": ".",
+  "slug": "/Latest_Changelog",
+  "permalink": "/docs/Latest_Changelog",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/docs/Getting_Started"
+  }
+}

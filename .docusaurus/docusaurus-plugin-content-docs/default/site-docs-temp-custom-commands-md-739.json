@@ -1,0 +1,19 @@
+{
+  "id": "temp/Custom_Commands",
+  "title": "Custom Commands",
+  "description": "How To Access All Commands?",
+  "source": "@site/docs/temp/Custom_Commands.md",
+  "sourceDirName": "temp",
+  "slug": "/temp/Custom_Commands",
+  "permalink": "/docs/temp/Custom_Commands",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Admin Panel Disappearing",
+    "permalink": "/docs/temp/Admin Panel/admin_issue"
+  }
+}
