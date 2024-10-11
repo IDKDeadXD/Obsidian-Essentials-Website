@@ -32,7 +32,7 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout description="Description will go into a meta tag in <head />">
+    <Layout description="The best Essential's add-on in all of minecraft">
       <HomepageHeader />
       <main>
         {/* <HomepageFeatures /> */}
