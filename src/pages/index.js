@@ -20,7 +20,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://www.mediafire.com/file/rpq6mn754cywivn/Realm_Essentials_V.1.0.1.mcaddon/file">
+            to="https://www.mediafire.com/file/z29rl7h92o0gsrs/Realm+Essentials-V1.0.3.mcaddon/file">
             Download
           </Link>
         </div>
