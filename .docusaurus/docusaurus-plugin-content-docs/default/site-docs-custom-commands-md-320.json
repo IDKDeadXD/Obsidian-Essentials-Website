@@ -1,11 +1,11 @@
 {
-  "id": "Custom_Commands",
+  "id": "custom-commands",
   "title": "Help Command",
   "description": "Overview",
-  "source": "@site/docs/Custom_Commands.md",
+  "source": "@site/docs/custom-commands.md",
   "sourceDirName": ".",
-  "slug": "/Custom_Commands",
-  "permalink": "/docs/Custom_Commands",
+  "slug": "/custom-commands",
+  "permalink": "/docs/custom-commands",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -15,5 +15,9 @@
   "previous": {
     "title": "Spawn Protection System",
     "permalink": "/docs/Admin Panel/spawn-protection"
+  },
+  "next": {
+    "title": "Reporting System",
+    "permalink": "/docs/report-system"
   }
 }

@@ -3,9 +3,10 @@
   "source": "@site/blog/10-10-2024.md",
   "title": "Doc's Info",
   "description": "The website docs will take a while to get setup but i do hope to get it finished soon, I hope you all have a amazing time using my add-on!",
-  "date": "2024-10-10T20:52:38.326Z",
+  "date": "2024-10-10T20:59:56.000Z",
   "tags": [
     {
+      "inline": true,
       "label": "Website",
       "permalink": "/blog/tags/website"
     }
@@ -17,7 +18,8 @@
       "title": "Head Developer",
       "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
       "imageURL": "https://cdn.discordapp.com/avatars/609579584987594754/125a7f7830cf0255fb2b6344b451f4fd?size=1024",
-      "key": "dead"
+      "key": "dead",
+      "page": null
     }
   ],
   "frontMatter": {
@@ -29,7 +31,7 @@
     ]
   },
   "unlisted": false,
-  "nextItem": {
+  "prevItem": {
     "title": "Website News!",
     "permalink": "/blog/website-announcement"
   }

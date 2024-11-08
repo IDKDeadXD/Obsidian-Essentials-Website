@@ -1,0 +1,23 @@
+{
+  "id": "Admin Panel/spawn-protection",
+  "title": "Spawn Protection System",
+  "description": "The Spawn Protection System provides a safe zone around spawn, where players and mobs are managed to ensure a peaceful experience. Admins can control the spawn radius, effects, and whether hostile mobs are killed in this area through an Admin Panel.",
+  "source": "@site/docs/Admin Panel/spawn-protection.md",
+  "sourceDirName": "Admin Panel",
+  "slug": "/Admin Panel/spawn-protection",
+  "permalink": "/docs/Admin Panel/spawn-protection",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sidebar Creator",
+    "permalink": "/docs/Admin Panel/sidebar-creator"
+  },
+  "next": {
+    "title": "Help Command",
+    "permalink": "/docs/custom-commands"
+  }
+}

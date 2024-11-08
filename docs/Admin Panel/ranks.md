@@ -1,4 +1,4 @@
-# Ranks System: Player Guide
+# Ranks System
 
 The Ranks System allows you to manage ranks for players, including assigning, editing, and removing ranks, as well as customizing rank colors. Ranks can also be displayed in chat, making it easy to identify roles and player hierarchy.
 

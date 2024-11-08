@@ -2,14 +2,16 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Doc's Info",
-      "permalink": "/blog/docs-info-update",
-      "unlisted": false
-    },
-    {
       "title": "Website News!",
       "permalink": "/blog/website-announcement",
-      "unlisted": false
+      "unlisted": false,
+      "date": "2024-10-10T20:59:56.000Z"
+    },
+    {
+      "title": "Doc's Info",
+      "permalink": "/blog/docs-info-update",
+      "unlisted": false,
+      "date": "2024-10-10T20:59:56.000Z"
     }
   ]
 }

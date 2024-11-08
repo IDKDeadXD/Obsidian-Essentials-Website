@@ -1,0 +1,23 @@
+{
+  "id": "Admin Panel/sidebar-creator",
+  "title": "Sidebar Creator",
+  "description": "The Sidebar Creator lets you personalize your Minecraft sidebar, displaying information like your objectives, rank, coordinates, and more. This guide explains each feature and how you can set it up to fit your preferences.",
+  "source": "@site/docs/Admin Panel/sidebar-creator.md",
+  "sourceDirName": "Admin Panel",
+  "slug": "/Admin Panel/sidebar-creator",
+  "permalink": "/docs/Admin Panel/sidebar-creator",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ranks System",
+    "permalink": "/docs/Admin Panel/ranks"
+  },
+  "next": {
+    "title": "Spawn Protection System",
+    "permalink": "/docs/Admin Panel/spawn-protection"
+  }
+}

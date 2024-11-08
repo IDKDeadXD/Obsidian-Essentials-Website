@@ -1,0 +1,23 @@
+{
+  "id": "Admin Panel/floating-text",
+  "title": "Floating Text System",
+  "description": "The Floating Text System lets you create and manage floating texts and scoreboards within your Minecraft world. You can place custom texts or live scoreboards that display information like player scores in any dimension.",
+  "source": "@site/docs/Admin Panel/floating-text.md",
+  "sourceDirName": "Admin Panel",
+  "slug": "/Admin Panel/floating-text",
+  "permalink": "/docs/Admin Panel/floating-text",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Server Shutdown",
+    "permalink": "/docs/Admin Panel/Server-Shutdown"
+  },
+  "next": {
+    "title": "Ranks System",
+    "permalink": "/docs/Admin Panel/ranks"
+  }
+}

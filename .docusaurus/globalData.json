@@ -8,26 +8,41 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "Admin Panel/Server_Shutdown",
+          "mainDocId": "Admin Panel/Server-Shutdown",
           "docs": [
             {
-              "id": "Admin Panel/admin_issue",
-              "path": "/docs/Admin Panel/admin_issue",
+              "id": "Admin Panel/floating-text",
+              "path": "/docs/Admin Panel/floating-text",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Admin Panel/Server_Shutdown",
-              "path": "/docs/Admin Panel/Server_Shutdown",
+              "id": "Admin Panel/ranks",
+              "path": "/docs/Admin Panel/ranks",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Custom_Commands",
-              "path": "/docs/Custom_Commands",
+              "id": "Admin Panel/Server-Shutdown",
+              "path": "/docs/Admin Panel/Server-Shutdown",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Getting_Started",
-              "path": "/docs/Getting_Started",
+              "id": "Admin Panel/sidebar-creator",
+              "path": "/docs/Admin Panel/sidebar-creator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Admin Panel/spawn-protection",
+              "path": "/docs/Admin Panel/spawn-protection",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "custom-commands",
+              "path": "/docs/custom-commands",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "report-system",
+              "path": "/docs/report-system",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -35,8 +50,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/Admin Panel/Server_Shutdown",
-                "label": "Admin Panel/Server_Shutdown"
+                "path": "/docs/Admin Panel/Server-Shutdown",
+                "label": "Admin Panel/Server-Shutdown"
               }
             }
           }

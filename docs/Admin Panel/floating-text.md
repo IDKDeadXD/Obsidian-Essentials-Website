@@ -1,4 +1,4 @@
-# Floating Text System: Player Guide
+# Floating Text System
 
 The Floating Text System lets you create and manage floating texts and scoreboards within your Minecraft world. You can place custom texts or live scoreboards that display information like player scores in any dimension.
 

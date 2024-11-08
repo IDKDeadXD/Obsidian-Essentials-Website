@@ -1,4 +1,4 @@
-# Sidebar Creator: Player Guide
+# Sidebar Creator
 
 The Sidebar Creator lets you personalize your Minecraft sidebar, displaying information like your objectives, rank, coordinates, and more. This guide explains each feature and how you can set it up to fit your preferences.
 
