@@ -74,16 +74,28 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '116'),
+    component: ComponentCreator('/docs', 'dfd'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '41c'),
+        component: ComponentCreator('/docs', '2c9'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'da4'),
+            component: ComponentCreator('/docs', '09e'),
             routes: [
+              {
+                path: '/docs/Admin Panel/announcements',
+                component: ComponentCreator('/docs/Admin Panel/announcements', '451'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Admin Panel/ban-system',
+                component: ComponentCreator('/docs/Admin Panel/ban-system', '006'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/docs/Admin Panel/floating-text',
                 component: ComponentCreator('/docs/Admin Panel/floating-text', '680'),

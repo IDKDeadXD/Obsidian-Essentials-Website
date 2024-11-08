@@ -1,0 +1,23 @@
+{
+  "id": "Admin Panel/announcements",
+  "title": "Announcements System",
+  "description": "Overview",
+  "source": "@site/docs/Admin Panel/announcements.md",
+  "sourceDirName": "Admin Panel",
+  "slug": "/Admin Panel/announcements",
+  "permalink": "/docs/Admin Panel/announcements",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Server Shutdown",
+    "permalink": "/docs/Admin Panel/Server-Shutdown"
+  },
+  "next": {
+    "title": "Ban System",
+    "permalink": "/docs/Admin Panel/ban-system"
+  }
+}

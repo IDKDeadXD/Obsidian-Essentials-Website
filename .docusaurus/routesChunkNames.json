@@ -122,18 +122,26 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-website-announcement-19-f-95f"
   },
-  "/docs-116": {
+  "/docs-dfd": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-41c": {
+  "/docs-2c9": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-da4": {
+  "/docs-09e": {
     "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/Admin Panel/announcements-451": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-admin-panel-announcements-26-f-c48"
+  },
+  "/docs/Admin Panel/ban-system-006": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-admin-panel-ban-system-07-b-9ec"
   },
   "/docs/Admin Panel/floating-text-680": {
     "__comp": "__comp---theme-doc-item-178-a40",

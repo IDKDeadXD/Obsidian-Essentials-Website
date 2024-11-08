@@ -11,6 +11,16 @@
           "mainDocId": "Admin Panel/Server-Shutdown",
           "docs": [
             {
+              "id": "Admin Panel/announcements",
+              "path": "/docs/Admin Panel/announcements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Admin Panel/ban-system",
+              "path": "/docs/Admin Panel/ban-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Admin Panel/floating-text",
               "path": "/docs/Admin Panel/floating-text",
               "sidebar": "tutorialSidebar"
