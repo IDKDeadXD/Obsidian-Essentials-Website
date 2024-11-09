@@ -73,16 +73,26 @@ export default [
     exact: true
   },
   {
+    path: '/changelogs',
+    component: ComponentCreator('/changelogs', '984'),
+    exact: true
+  },
+  {
+    path: '/download',
+    component: ComponentCreator('/download', 'ea3'),
+    exact: true
+  },
+  {
     path: '/docs',
-    component: ComponentCreator('/docs', 'dfd'),
+    component: ComponentCreator('/docs', '579'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '2c9'),
+        component: ComponentCreator('/docs', '29e'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '09e'),
+            component: ComponentCreator('/docs', '04f'),
             routes: [
               {
                 path: '/docs/Admin Panel/announcements',
@@ -99,6 +109,12 @@ export default [
               {
                 path: '/docs/Admin Panel/floating-text',
                 component: ComponentCreator('/docs/Admin Panel/floating-text', '680'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Admin Panel/player-options',
+                component: ComponentCreator('/docs/Admin Panel/player-options', '311'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

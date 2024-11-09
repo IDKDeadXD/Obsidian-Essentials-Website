@@ -186,7 +186,7 @@
 }
 .hero {
   background: var(--background-900);
-  background-image: url(https://i.imgur.com/zhodxHL.jpg);
+  background-image: url(../../static/img/main_page.jpg);
   background-size: cover;
   position: relative;
   /* border-radius: 10px; */
