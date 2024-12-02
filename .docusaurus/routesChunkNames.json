@@ -134,20 +134,24 @@
     "__context": {
       "plugin": "plugin---changelogsa-74-fb7"
     },
-    "config": "config---changelogs-5-e-9-6c3"
+    "config": "config---download-5-e-9-a88"
   },
-  "/docs-579": {
+  "/docs-322": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-29e": {
+  "/docs-e13": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-04f": {
+  "/docs-4ac": {
     "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/@Updates/11-08-2024-a6c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-updates-11-08-2024502-76a"
   },
   "/docs/Admin Panel/announcements-451": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -181,19 +185,27 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-admin-panel-spawn-protection-115-11f"
   },
-  "/docs/custom-commands-8e7": {
+  "/docs/Commands/codes-976": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-custom-commands-320-c1c"
+    "content": "content---docs-commands-codes-34-d-2dc"
   },
-  "/docs/report-system-8f3": {
+  "/docs/Commands/help-command-b7e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-report-system-773-813"
+    "content": "content---docs-commands-help-command-7-bc-443"
+  },
+  "/docs/Community Panel/player-shops-3a3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-community-panel-player-shops-200-531"
+  },
+  "/docs/Community Panel/report-system-966": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-community-panel-report-system-8-c-2-141"
   },
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
       "plugin": "plugin---changelogsa-74-fb7"
     },
-    "config": "config---changelogs-5-e-9-6c3"
+    "config": "config---download-5-e-9-a88"
   }
 }

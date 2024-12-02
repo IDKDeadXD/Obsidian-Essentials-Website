@@ -1,0 +1,19 @@
+{
+  "id": "@Updates/11-08-2024",
+  "title": "Obsidian Essentials - V1.1.0",
+  "description": "_",
+  "source": "@site/docs/@Updates/11-08-2024.md",
+  "sourceDirName": "@Updates",
+  "slug": "/@Updates/11-08-2024",
+  "permalink": "/docs/@Updates/11-08-2024",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Server Shutdown",
+    "permalink": "/docs/Admin Panel/Server-Shutdown"
+  }
+}

@@ -13,11 +13,7 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Spawn Protection System",
-    "permalink": "/docs/Admin Panel/spawn-protection"
-  },
-  "next": {
     "title": "Reporting System",
-    "permalink": "/docs/report-system"
+    "permalink": "/docs/Community Panel/report-system"
   }
 }

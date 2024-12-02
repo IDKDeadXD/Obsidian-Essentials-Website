@@ -1,0 +1,23 @@
+{
+  "id": "Community Panel/player-shops",
+  "title": "Player Shops",
+  "description": "The Player Shops system allows players to create shops, manage inventory, and trade items with other players. Follow the instructions below to get started with creating, browsing, and purchasing from shops.",
+  "source": "@site/docs/Community Panel/player-shops.md",
+  "sourceDirName": "Community Panel",
+  "slug": "/Community Panel/player-shops",
+  "permalink": "/docs/Community Panel/player-shops",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "help-command",
+    "permalink": "/docs/Commands/help-command"
+  },
+  "next": {
+    "title": "Reporting System",
+    "permalink": "/docs/Community Panel/report-system"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Commands/help-command",
+  "title": "help-command",
+  "description": "Chat Commands",
+  "source": "@site/docs/Commands/help-command.md",
+  "sourceDirName": "Commands",
+  "slug": "/Commands/help-command",
+  "permalink": "/docs/Commands/help-command",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "codes",
+    "permalink": "/docs/Commands/codes"
+  },
+  "next": {
+    "title": "Player Shops",
+    "permalink": "/docs/Community Panel/player-shops"
+  }
+}

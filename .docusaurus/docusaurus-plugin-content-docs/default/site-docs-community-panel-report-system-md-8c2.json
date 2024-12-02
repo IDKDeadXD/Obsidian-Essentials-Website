@@ -1,0 +1,19 @@
+{
+  "id": "Community Panel/report-system",
+  "title": "Reporting System",
+  "description": "Overview",
+  "source": "@site/docs/Community Panel/report-system.md",
+  "sourceDirName": "Community Panel",
+  "slug": "/Community Panel/report-system",
+  "permalink": "/docs/Community Panel/report-system",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Player Shops",
+    "permalink": "/docs/Community Panel/player-shops"
+  }
+}

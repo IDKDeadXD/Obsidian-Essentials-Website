@@ -1,0 +1,23 @@
+{
+  "id": "Commands/!h",
+  "title": "!h",
+  "description": "Chat Commands Documentation",
+  "source": "@site/docs/Commands/!h.md",
+  "sourceDirName": "Commands",
+  "slug": "/Commands/!h",
+  "permalink": "/docs/Commands/!h",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Spawn Protection System",
+    "permalink": "/docs/Admin Panel/spawn-protection"
+  },
+  "next": {
+    "title": "codes",
+    "permalink": "/docs/Commands/codes"
+  }
+}

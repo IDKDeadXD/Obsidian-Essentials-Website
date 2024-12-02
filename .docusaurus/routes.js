@@ -84,16 +84,22 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '579'),
+    component: ComponentCreator('/docs', '322'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '29e'),
+        component: ComponentCreator('/docs', 'e13'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '04f'),
+            component: ComponentCreator('/docs', '4ac'),
             routes: [
+              {
+                path: '/docs/@Updates/11-08-2024',
+                component: ComponentCreator('/docs/@Updates/11-08-2024', 'a6c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/docs/Admin Panel/announcements',
                 component: ComponentCreator('/docs/Admin Panel/announcements', '451'),
@@ -143,14 +149,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/custom-commands',
-                component: ComponentCreator('/docs/custom-commands', '8e7'),
+                path: '/docs/Commands/codes',
+                component: ComponentCreator('/docs/Commands/codes', '976'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/report-system',
-                component: ComponentCreator('/docs/report-system', '8f3'),
+                path: '/docs/Commands/help-command',
+                component: ComponentCreator('/docs/Commands/help-command', 'b7e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Community Panel/player-shops',
+                component: ComponentCreator('/docs/Community Panel/player-shops', '3a3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Community Panel/report-system',
+                component: ComponentCreator('/docs/Community Panel/report-system', '966'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

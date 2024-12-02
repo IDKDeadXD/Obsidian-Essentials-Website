@@ -8,8 +8,13 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "Admin Panel/Server-Shutdown",
+          "mainDocId": "@Updates/11-08-2024",
           "docs": [
+            {
+              "id": "@Updates/11-08-2024",
+              "path": "/docs/@Updates/11-08-2024",
+              "sidebar": "tutorialSidebar"
+            },
             {
               "id": "Admin Panel/announcements",
               "path": "/docs/Admin Panel/announcements",
@@ -51,13 +56,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "custom-commands",
-              "path": "/docs/custom-commands",
+              "id": "Commands/codes",
+              "path": "/docs/Commands/codes",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "report-system",
-              "path": "/docs/report-system",
+              "id": "Commands/help-command",
+              "path": "/docs/Commands/help-command",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Community Panel/player-shops",
+              "path": "/docs/Community Panel/player-shops",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Community Panel/report-system",
+              "path": "/docs/Community Panel/report-system",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -65,8 +80,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/Admin Panel/Server-Shutdown",
-                "label": "Admin Panel/Server-Shutdown"
+                "path": "/docs/@Updates/11-08-2024",
+                "label": "@Updates/11-08-2024"
               }
             }
           }

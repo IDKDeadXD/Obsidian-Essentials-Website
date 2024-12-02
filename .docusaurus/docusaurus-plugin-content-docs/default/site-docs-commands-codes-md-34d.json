@@ -1,0 +1,23 @@
+{
+  "id": "Commands/codes",
+  "title": "codes",
+  "description": "Codes System",
+  "source": "@site/docs/Commands/codes.md",
+  "sourceDirName": "Commands",
+  "slug": "/Commands/codes",
+  "permalink": "/docs/Commands/codes",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Spawn Protection System",
+    "permalink": "/docs/Admin Panel/spawn-protection"
+  },
+  "next": {
+    "title": "help-command",
+    "permalink": "/docs/Commands/help-command"
+  }
+}

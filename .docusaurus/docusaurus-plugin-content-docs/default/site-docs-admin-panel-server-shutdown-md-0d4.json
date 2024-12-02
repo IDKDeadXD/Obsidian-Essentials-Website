@@ -12,6 +12,10 @@
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Obsidian Essentials - V1.1.0",
+    "permalink": "/docs/@Updates/11-08-2024"
+  },
   "next": {
     "title": "Announcements System",
     "permalink": "/docs/Admin Panel/announcements"

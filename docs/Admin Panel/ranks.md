@@ -1,57 +1,77 @@
-# Ranks System
+# Ranks
 
-The Ranks System allows you to manage ranks for players, including assigning, editing, and removing ranks, as well as customizing rank colors. Ranks can also be displayed in chat, making it easy to identify roles and player hierarchy.
-
----
-
-## Getting Started
-
-1. **Open the Ranks Menu**  
-   The Ranks menu can be found in the Admin Panel
-   
-2. **Player Selection Menu**  
-   You’ll first see a list of all online players. Select a player to view or edit their ranks.
+This part of the add-on allows players to manage custom ranks in Minecraft Bedrock Edition, including adding, editing, and deleting ranks, as well as formatting chat messages to display ranks. Here's how to use it:
 
 ---
 
 ## Features
+1. **Rank Management:**
+   - Add new ranks with customizable color and style.
+   - Edit or delete existing ranks.
+   - View all ranks assigned to a player.
 
-### Viewing and Editing Ranks
+2. **Chat Formatting:**
+   - Display ranks in chat messages.
+   - Customize chat formatting with ranks.
 
-1. **Rank Options for Selected Player**  
-   Once you’ve selected a player, you have the following options:
-   - **Edit/Remove Rank**: Modify or remove an existing rank.
-   - **Add Rank**: Assign a new rank to the player.
-
-2. **Edit/Remove Rank**  
-   - You’ll see a list of the player’s current ranks.
-   - Select a rank to:
-     - **Edit**: Change the rank name.
-     - **Delete**: Remove the rank from the player.
-   - After editing or deleting, a confirmation message will be displayed.
-
-### Adding a New Rank
-
-1. **Create a Rank**
-   - Choose **Add Rank** from the options.
-   - Enter the rank name (do not include "obsidianranks:" in the name).
-   - Choose a color for the rank from the dropdown list.
-   
-2. **Rank Example**  
-   - Rank names can include colors, such as `§4Admin` for a dark red "Admin" rank.
-   - The rank will appear as `[Admin]` or `[§4Admin]` in chat, based on your chosen color.
-
-### Displaying Ranks in Chat
-
-1. **Formatted Chat Messages**
-   - Messages will appear as `[Rank1] [Rank2] <PlayerName> Message`.
 
 ---
 
-## Quick Tips
 
-- **Multiple Ranks**: Players can have up to 3 ranks. Assign meaningful ranks to reflect their roles.
-- **Custom Colors**: Use color codes to make ranks visually distinct in chat.
-- **Default Ranks**: If a player has no assigned ranks, they’ll be displayed as "Member."
+## Commands and Usage
 
-Enhance your server’s organization and give players their well-deserved titles with the Ranks System!
+
+---
+
+### Managing Ranks
+
+#### **Viewing Player Ranks**
+1. Select a player from the list of online players.
+2. View their assigned ranks in a submenu.
+
+#### **Adding a Rank**
+1. Select **"Add Rank"** from the player options menu.
+2. Provide the rank name (e.g., "Admin"), select a color, and select a style.
+3. Confirm to assign the rank.
+
+#### **Editing or Removing a Rank**
+1. Select **"Edit/Remove Rank"** from the player options menu.
+2. Choose a rank to edit or remove:
+   - **Edit Rank:** Modify the rank name.
+   - **Delete Rank:** Remove the rank from the player.
+
+---
+
+### Chat Formatting
+- Players' chat messages will display their ranks automatically if `ChatRanks` is enabled.
+- Example:  
+  ```plaintext
+  [Admin] [VIP] <PlayerName>: Hello, everyone!
+  ```
+
+---
+
+## Customization
+
+### Tags
+- Ranks are stored as player tags in the format `obsidianranks:RankName`. For example:
+  ```plaintext
+  obsidianranks:Admin
+  ```
+
+---
+
+## Notes
+- A maximum of **3 ranks** can be assigned to a player.
+- Use the `/tag` command to manually add or remove rank tags if necessary.
+- Colors and styles are applied using Minecraft's § formatting codes.
+
+---
+
+## Troubleshooting
+1. **Chat Formatting Not Working:**
+   - Ensure `ChatRanks` is set to `true`.
+   - Verify players have valid rank tags.
+
+
+---
