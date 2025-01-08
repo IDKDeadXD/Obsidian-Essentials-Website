@@ -1,77 +1,76 @@
 # Ranks
 
-This part of the add-on allows players to manage custom ranks in Minecraft Bedrock Edition, including adding, editing, and deleting ranks, as well as formatting chat messages to display ranks. Here's how to use it:
+## Overview
+The ranks system allows administrators to assign and manage ranks for players. Each player can have up to 3 ranks displayed in chat, with special formatting options available. The system also supports beta ranks with unique glyphs.
 
----
+## Regular Ranks
 
-## Features
-1. **Rank Management:**
-   - Add new ranks with customizable color and style.
-   - Edit or delete existing ranks.
-   - View all ranks assigned to a player.
+### Command Usage
+```
+!rank <username> <rank>
+```
 
-2. **Chat Formatting:**
-   - Display ranks in chat messages.
-   - Customize chat formatting with ranks.
+Example:
+```
+!rank PlayerOne VIP
+```
 
+### Features
+- Maximum of 3 ranks per player
+- Ranks appear in chat as: `[RankName]`
+- Default rank of `[Member]` shows if no other ranks are present
+- Using the command on a player with an existing rank will remove that rank
+- Only players with the `Admin` or `admin` tag can manage ranks
 
----
+### Formatting Options
+Ranks can include color codes and style modifiers:
 
+#### Colors
+- `§0` - Black
+- `§1` - Dark Blue
+- `§2` - Dark Green
+- `§3` - Dark Aqua
+- `§4` - Dark Red
+- `§5` - Dark Purple
+- `§6` - Gold
+- `§7` - Gray
+- `§8` - Dark Gray
+- `§9` - Blue
+- `§a` - Green
+- `§b` - Aqua
+- `§c` - Red
+- `§d` - Light Purple
+- `§e` - Yellow
+- `§f` - White
 
-## Commands and Usage
+#### Styles
+- `§l` - Bold
+- `§o` - Italic
+- `§k` - Obfuscated
 
+Example with formatting:
+```
+!rank PlayerOne §c§lAdmin
+```
+This creates a red, bold "Admin" rank.
 
----
+## Beta Ranks
+Beta ranks are special ranks that display unique glyphs. These are identified by the `obsidian-beta.ranks:` prefix.
 
-### Managing Ranks
+### Available Beta Ranks
+- `obsidian-beta.ranks:admin`
+- `obsidian-beta.ranks:mod`
+- `obsidian-beta.ranks:VIP`
+- `obsidian-beta.ranks:member`
 
-#### **Viewing Player Ranks**
-1. Select a player from the list of online players.
-2. View their assigned ranks in a submenu.
+### Chat Display
+The chat format follows this pattern:
+![](../../static/img/glyph-ranks_example.png)
 
-#### **Adding a Rank**
-1. Select **"Add Rank"** from the player options menu.
-2. Provide the rank name (e.g., "Admin"), select a color, and select a style.
-3. Confirm to assign the rank.
-
-#### **Editing or Removing a Rank**
-1. Select **"Edit/Remove Rank"** from the player options menu.
-2. Choose a rank to edit or remove:
-   - **Edit Rank:** Modify the rank name.
-   - **Delete Rank:** Remove the rank from the player.
-
----
-
-### Chat Formatting
-- Players' chat messages will display their ranks automatically if `ChatRanks` is enabled.
-- Example:  
-  ```plaintext
-  [Admin] [VIP] <PlayerName>: Hello, everyone!
-  ```
-
----
-
-## Customization
-
-### Tags
-- Ranks are stored as player tags in the format `obsidianranks:RankName`. For example:
-  ```plaintext
-  obsidianranks:Admin
-  ```
-
----
-
-## Notes
-- A maximum of **3 ranks** can be assigned to a player.
-- Use the `/tag` command to manually add or remove rank tags if necessary.
-- Colors and styles are applied using Minecraft's § formatting codes.
-
----
-
-## Troubleshooting
-1. **Chat Formatting Not Working:**
-   - Ensure `ChatRanks` is set to `true`.
-   - Verify players have valid rank tags.
-
-
----
+## Permissions
+- Only players with the `Admin` or `admin` tag can:
+  - Add ranks
+  - Remove ranks
+  - Edit ranks
+  - Use the rank management GUI
+  - Chat when chat is locked
