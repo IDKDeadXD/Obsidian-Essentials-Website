@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Ban System",
-    "permalink": "/docs/Admin Panel/ban-system"
+    "title": "Custom Commands",
+    "permalink": "/docs/Admin Panel/custom-commands"
   },
   "next": {
-    "title": "Player Options",
-    "permalink": "/docs/Admin Panel/player-options"
+    "title": "Lag Zapper",
+    "permalink": "/docs/Admin Panel/lag-zapper"
   }
 }

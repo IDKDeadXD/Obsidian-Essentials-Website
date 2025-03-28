@@ -1,0 +1,23 @@
+{
+  "id": "Admin Panel/rules-menu",
+  "title": "Rules Management",
+  "description": "This guide explains how to set up, configure, and display server rules using the Admin Panel.",
+  "source": "@site/docs/Admin Panel/rules-menu.md",
+  "sourceDirName": "Admin Panel",
+  "slug": "/Admin Panel/rules-menu",
+  "permalink": "/docs/Admin Panel/rules-menu",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ranks",
+    "permalink": "/docs/Admin Panel/ranks"
+  },
+  "next": {
+    "title": "Sidebar Creator",
+    "permalink": "/docs/Admin Panel/sidebar-creator"
+  }
+}

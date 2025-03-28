@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Floating Text System",
-    "permalink": "/docs/Admin Panel/floating-text"
+    "title": "Mob Banning",
+    "permalink": "/docs/Admin Panel/mob-banning"
   },
   "next": {
-    "title": "Ranks System",
-    "permalink": "/docs/Admin Panel/ranks"
+    "title": "Poll System",
+    "permalink": "/docs/Admin Panel/polls"
   }
 }

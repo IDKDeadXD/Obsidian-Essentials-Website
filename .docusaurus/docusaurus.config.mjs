@@ -39,38 +39,19 @@ export default {
     ]
   ],
   "themeConfig": {
+    "announcementBar": {
+      "id": "outdated",
+      "content": "This website is outdated and is currently being redone",
+      "backgroundColor": "var(--primary-400)",
+      "textColor": "#000",
+      "isCloseable": false
+    },
     "colorMode": {
       "defaultMode": "dark",
       "respectPrefersColorScheme": false,
       "disableSwitch": true
     },
     "image": "https://i.imgur.com/9qmrYKK.jpg",
-    "navbar": {
-      "title": "Obsidian Essentials",
-      "logo": {
-        "alt": "My Site Logo",
-        "src": "https://i.imgur.com/9qmrYKK.jpg"
-      },
-      "items": [
-        {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Documentation"
-        },
-        {
-          "to": "/changelogs",
-          "label": "Change Logs",
-          "position": "left"
-        },
-        {
-          "href": "https://www.mediafire.com/folder/jtlpl10wk86py/Obsidian_Essentials",
-          "label": "Downloads",
-          "position": "left"
-        }
-      ],
-      "hideOnScroll": false
-    },
     "docs": {
       "versionPersistence": "localStorage",
       "sidebar": {
@@ -78,12 +59,11 @@ export default {
         "autoCollapseCategories": false
       }
     },
-    "blog": {
-      "sidebar": {
-        "groupByYear": true
-      }
-    },
     "metadata": [],
+    "navbar": {
+      "hideOnScroll": false,
+      "items": []
+    },
     "prism": {
       "additionalLanguages": [],
       "theme": {
@@ -232,21 +212,6 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
-  "future": {
-    "experimental_faster": {
-      "swcJsLoader": false,
-      "swcJsMinimizer": false,
-      "swcHtmlMinimizer": false,
-      "lightningCssMinimizer": false,
-      "mdxCrossCompilerCache": false,
-      "rspackBundler": false
-    },
-    "experimental_storage": {
-      "type": "localStorage",
-      "namespace": false
-    },
-    "experimental_router": "browser"
-  },
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
@@ -268,9 +233,6 @@ export default {
       "comments": true,
       "admonitions": true,
       "headingIds": true
-    },
-    "anchors": {
-      "maintainCase": false
     }
   }
 };

@@ -1,7 +1,7 @@
 {
   "id": "Admin Panel/ranks",
-  "title": "Ranks System",
-  "description": "The Ranks System allows you to manage ranks for players, including assigning, editing, and removing ranks, as well as customizing rank colors. Ranks can also be displayed in chat, making it easy to identify roles and player hierarchy.",
+  "title": "Ranks",
+  "description": "Overview",
   "source": "@site/docs/Admin Panel/ranks.md",
   "sourceDirName": "Admin Panel",
   "slug": "/Admin Panel/ranks",
@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Player Options",
-    "permalink": "/docs/Admin Panel/player-options"
+    "title": "Poll System",
+    "permalink": "/docs/Admin Panel/polls"
   },
   "next": {
-    "title": "Sidebar Creator",
-    "permalink": "/docs/Admin Panel/sidebar-creator"
+    "title": "Rules Management",
+    "permalink": "/docs/Admin Panel/rules-menu"
   }
 }

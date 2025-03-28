@@ -4,14 +4,12 @@
     {
       "title": "Website News!",
       "permalink": "/blog/website-announcement",
-      "unlisted": false,
-      "date": "2024-10-10T20:59:56.000Z"
+      "unlisted": false
     },
     {
       "title": "Doc's Info",
       "permalink": "/blog/docs-info-update",
-      "unlisted": false,
-      "date": "2024-10-10T20:59:56.000Z"
+      "unlisted": false
     }
   ]
 }

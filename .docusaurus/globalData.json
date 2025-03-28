@@ -8,11 +8,11 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "@Updates/11-08-2024",
+          "mainDocId": "@Updates/1-8-25",
           "docs": [
             {
-              "id": "@Updates/11-08-2024",
-              "path": "/docs/@Updates/11-08-2024",
+              "id": "@Updates/1-8-25",
+              "path": "/docs/@Updates/1-8-25",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -26,8 +26,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Admin Panel/custom-commands",
+              "path": "/docs/Admin Panel/custom-commands",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Admin Panel/floating-text",
               "path": "/docs/Admin Panel/floating-text",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Admin Panel/lag-zapper",
+              "path": "/docs/Admin Panel/lag-zapper",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Admin Panel/mob-banning",
+              "path": "/docs/Admin Panel/mob-banning",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -36,13 +51,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Admin Panel/polls",
+              "path": "/docs/Admin Panel/polls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Admin Panel/ranks",
               "path": "/docs/Admin Panel/ranks",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Admin Panel/Server-Shutdown",
-              "path": "/docs/Admin Panel/Server-Shutdown",
+              "id": "Admin Panel/rules-menu",
+              "path": "/docs/Admin Panel/rules-menu",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -66,6 +86,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Commands/item-blacklist",
+              "path": "/docs/Commands/item-blacklist",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Community Panel/player-shops",
               "path": "/docs/Community Panel/player-shops",
               "sidebar": "tutorialSidebar"
@@ -80,8 +105,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/@Updates/11-08-2024",
-                "label": "@Updates/11-08-2024"
+                "path": "/docs/@Updates/1-8-25",
+                "label": "@Updates/1-8-25"
               }
             }
           }

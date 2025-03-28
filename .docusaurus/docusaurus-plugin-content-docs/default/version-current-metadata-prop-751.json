@@ -11,65 +11,271 @@
     "tutorialSidebar": [
       {
         "type": "category",
+        "label": "@Updates",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Obsidian Essentials - V1.1.6",
+            "href": "/docs/@Updates/1-8-25",
+            "docId": "@Updates/1-8-25",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
         "label": "Admin Panel",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Server Shutdown",
-            "href": "/docs/Admin Panel/Server_Shutdown",
-            "docId": "Admin Panel/Server_Shutdown",
+            "label": "Announcements System",
+            "href": "/docs/Admin Panel/announcements",
+            "docId": "Admin Panel/announcements",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Admin Panel Disappearing",
-            "href": "/docs/Admin Panel/admin_issue",
-            "docId": "Admin Panel/admin_issue",
+            "label": "Ban System",
+            "href": "/docs/Admin Panel/ban-system",
+            "docId": "Admin Panel/ban-system",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Custom Commands",
+            "href": "/docs/Admin Panel/custom-commands",
+            "docId": "Admin Panel/custom-commands",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Floating Text System",
+            "href": "/docs/Admin Panel/floating-text",
+            "docId": "Admin Panel/floating-text",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Lag Zapper",
+            "href": "/docs/Admin Panel/lag-zapper",
+            "docId": "Admin Panel/lag-zapper",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Mob Banning",
+            "href": "/docs/Admin Panel/mob-banning",
+            "docId": "Admin Panel/mob-banning",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Player Options",
+            "href": "/docs/Admin Panel/player-options",
+            "docId": "Admin Panel/player-options",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Poll System",
+            "href": "/docs/Admin Panel/polls",
+            "docId": "Admin Panel/polls",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Ranks",
+            "href": "/docs/Admin Panel/ranks",
+            "docId": "Admin Panel/ranks",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Rules Management",
+            "href": "/docs/Admin Panel/rules-menu",
+            "docId": "Admin Panel/rules-menu",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Sidebar Creator",
+            "href": "/docs/Admin Panel/sidebar-creator",
+            "docId": "Admin Panel/sidebar-creator",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Spawn Protection System",
+            "href": "/docs/Admin Panel/spawn-protection",
+            "docId": "Admin Panel/spawn-protection",
             "unlisted": false
           }
         ]
       },
       {
-        "type": "link",
-        "label": "Custom Commands",
-        "href": "/docs/Custom_Commands",
-        "docId": "Custom_Commands",
-        "unlisted": false
+        "type": "category",
+        "label": "Commands",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "codes",
+            "href": "/docs/Commands/codes",
+            "docId": "Commands/codes",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "help-command",
+            "href": "/docs/Commands/help-command",
+            "docId": "Commands/help-command",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Item Blacklist",
+            "href": "/docs/Commands/item-blacklist",
+            "docId": "Commands/item-blacklist",
+            "unlisted": false
+          }
+        ]
       },
       {
-        "type": "link",
-        "label": "FAQ",
-        "href": "/docs/Getting_Started",
-        "docId": "Getting_Started",
-        "unlisted": false
+        "type": "category",
+        "label": "Community Panel",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Player Shops Guide",
+            "href": "/docs/Community Panel/player-shops",
+            "docId": "Community Panel/player-shops",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Reporting System",
+            "href": "/docs/Community Panel/report-system",
+            "docId": "Community Panel/report-system",
+            "unlisted": false
+          }
+        ]
       }
     ]
   },
   "docs": {
-    "Admin Panel/admin_issue": {
-      "id": "Admin Panel/admin_issue",
-      "title": "Admin Panel Disappearing",
-      "description": "this is the admin panel protection system, this means your not a admin",
+    "@Updates/1-8-25": {
+      "id": "@Updates/1-8-25",
+      "title": "Obsidian Essentials - V1.1.6",
+      "description": "---",
       "sidebar": "tutorialSidebar"
     },
-    "Admin Panel/Server_Shutdown": {
-      "id": "Admin Panel/Server_Shutdown",
-      "title": "Server Shutdown",
-      "description": "The Server Shutdown System enables you to temporarily close your realm, allowing access only to specific players or tags. This feature is perfect for performing maintenance tasks like fixing the spawn area or adding new kits efficiently.",
+    "Admin Panel/announcements": {
+      "id": "Admin Panel/announcements",
+      "title": "Announcements System",
+      "description": "Overview",
       "sidebar": "tutorialSidebar"
     },
-    "Custom_Commands": {
-      "id": "Custom_Commands",
+    "Admin Panel/ban-system": {
+      "id": "Admin Panel/ban-system",
+      "title": "Ban System",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "Admin Panel/custom-commands": {
+      "id": "Admin Panel/custom-commands",
       "title": "Custom Commands",
-      "description": "How To Access All Commands?",
+      "description": "This guide explains how to create, edit, and delete custom commands.",
       "sidebar": "tutorialSidebar"
     },
-    "Getting_Started": {
-      "id": "Getting_Started",
-      "title": "FAQ",
-      "description": "Developed by Dead",
+    "Admin Panel/floating-text": {
+      "id": "Admin Panel/floating-text",
+      "title": "Floating Text System",
+      "description": "The Floating Text System lets you create and manage floating texts and scoreboards within your Minecraft world. You can place custom texts or live scoreboards that display information like player scores in any dimension.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Admin Panel/lag-zapper": {
+      "id": "Admin Panel/lag-zapper",
+      "title": "Lag Zapper",
+      "description": "The Lag Zapper is a utility designed to help players maintain a smooth gameplay experience by automatically removing ground items that may cause lag. This tool includes customizable settings, such as clearing intervals and countdown notifications.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Admin Panel/mob-banning": {
+      "id": "Admin Panel/mob-banning",
+      "title": "Mob Banning",
+      "description": "This document provides an overview of the Mob Banning.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Admin Panel/player-options": {
+      "id": "Admin Panel/player-options",
+      "title": "Player Options",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "Admin Panel/polls": {
+      "id": "Admin Panel/polls",
+      "title": "Poll System",
+      "description": "This guide provides instructions for both players and admins on using the Minecraft Poll System. It explains how players can participate in polls and how admins can manage them.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Admin Panel/ranks": {
+      "id": "Admin Panel/ranks",
+      "title": "Ranks",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "Admin Panel/rules-menu": {
+      "id": "Admin Panel/rules-menu",
+      "title": "Rules Management",
+      "description": "This guide explains how to set up, configure, and display server rules using the Admin Panel.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Admin Panel/sidebar-creator": {
+      "id": "Admin Panel/sidebar-creator",
+      "title": "Sidebar Creator",
+      "description": "The Sidebar Creator lets you personalize your Minecraft sidebar, displaying information like your objectives, rank, coordinates, and more. This guide explains each feature and how you can set it up to fit your preferences.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Admin Panel/spawn-protection": {
+      "id": "Admin Panel/spawn-protection",
+      "title": "Spawn Protection System",
+      "description": "The Spawn Protection System provides a safe zone around spawn, where players and mobs are managed to ensure a peaceful experience. Admins can control the spawn radius, effects, and whether hostile mobs are killed in this area through an Admin Panel.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Commands/codes": {
+      "id": "Commands/codes",
+      "title": "codes",
+      "description": "Codes System",
+      "sidebar": "tutorialSidebar"
+    },
+    "Commands/help-command": {
+      "id": "Commands/help-command",
+      "title": "help-command",
+      "description": "Chat Commands",
+      "sidebar": "tutorialSidebar"
+    },
+    "Commands/item-blacklist": {
+      "id": "Commands/item-blacklist",
+      "title": "Item Blacklist",
+      "description": "The Item Blacklist command allows players with appropriate permissions to manage a list of banned items within the realm. Banned items are automatically removed from non-admin players' inventories to maintain server integrity and prevent exploits.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Community Panel/player-shops": {
+      "id": "Community Panel/player-shops",
+      "title": "Player Shops Guide",
+      "description": "This guide explains how players can use the Player Shops system to buy and sell items, manage their shops, and interact with the in-game economy.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Community Panel/report-system": {
+      "id": "Community Panel/report-system",
+      "title": "Reporting System",
+      "description": "Overview",
       "sidebar": "tutorialSidebar"
     }
   }

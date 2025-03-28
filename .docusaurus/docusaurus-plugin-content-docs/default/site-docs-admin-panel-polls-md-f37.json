@@ -1,0 +1,23 @@
+{
+  "id": "Admin Panel/polls",
+  "title": "Poll System",
+  "description": "This guide provides instructions for both players and admins on using the Minecraft Poll System. It explains how players can participate in polls and how admins can manage them.",
+  "source": "@site/docs/Admin Panel/polls.md",
+  "sourceDirName": "Admin Panel",
+  "slug": "/Admin Panel/polls",
+  "permalink": "/docs/Admin Panel/polls",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Player Options",
+    "permalink": "/docs/Admin Panel/player-options"
+  },
+  "next": {
+    "title": "Ranks",
+    "permalink": "/docs/Admin Panel/ranks"
+  }
+}

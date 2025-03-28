@@ -45,7 +45,6 @@ const config = {
 
         docs: {
           sidebarPath: './sidebars.js',
-          
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         //  editUrl:
@@ -88,23 +87,7 @@ const config = {
       },
       // Replace with your project's social card
       image: 'https://i.imgur.com/9qmrYKK.jpg',
-      navbar: {
-        title: 'Obsidian Essentials',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'https://i.imgur.com/9qmrYKK.jpg',
-        },
-        items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-        position: 'left',
-         label: 'Documentation',
-       },
-          {to: '/changelogs', label: 'Change Logs', position: 'left' },
-          { href: 'https://www.mediafire.com/folder/jtlpl10wk86py/Obsidian_Essentials', label: 'Downloads', position: 'left' }
-        ],
-      },
+
      
     }),
 };

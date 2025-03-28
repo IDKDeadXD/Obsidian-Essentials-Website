@@ -1,0 +1,19 @@
+{
+  "id": "@Updates/1-8-25",
+  "title": "Obsidian Essentials - V1.1.6",
+  "description": "---",
+  "source": "@site/docs/@Updates/1-8-25.md",
+  "sourceDirName": "@Updates",
+  "slug": "/@Updates/1-8-25",
+  "permalink": "/docs/@Updates/1-8-25",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Announcements System",
+    "permalink": "/docs/Admin Panel/announcements"
+  }
+}
