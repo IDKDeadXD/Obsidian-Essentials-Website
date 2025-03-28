@@ -52,6 +52,32 @@ export default {
       "disableSwitch": true
     },
     "image": "https://i.imgur.com/9qmrYKK.jpg",
+    "navbar": {
+      "title": "Obsidian Essentials",
+      "logo": {
+        "alt": "My Site Logo",
+        "src": "https://i.imgur.com/9qmrYKK.jpg"
+      },
+      "items": [
+        {
+          "type": "docSidebar",
+          "sidebarId": "tutorialSidebar",
+          "position": "left",
+          "label": "Documentation"
+        },
+        {
+          "to": "/changelogs",
+          "label": "Change Logs",
+          "position": "left"
+        },
+        {
+          "href": "https://www.mediafire.com/folder/jtlpl10wk86py/Obsidian_Essentials",
+          "label": "Downloads",
+          "position": "left"
+        }
+      ],
+      "hideOnScroll": false
+    },
     "docs": {
       "versionPersistence": "localStorage",
       "sidebar": {
@@ -60,10 +86,6 @@ export default {
       }
     },
     "metadata": [],
-    "navbar": {
-      "hideOnScroll": false,
-      "items": []
-    },
     "prism": {
       "additionalLanguages": [],
       "theme": {
