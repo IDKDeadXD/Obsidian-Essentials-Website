@@ -239,3 +239,117 @@
     flex-direction: column;
   }
 }
+
+/* Modal Overlay (Ensures modal stays on top and is centered) */
+.download-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  background-color: rgba(0, 0, 0, 0.7); /* Dark overlay background */
+  z-index: 9999; /* Ensures modal is on top */
+}
+
+/* Modal Box (Centers it within the overlay) */
+.download-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 800px;
+  max-height: 90vh; /* Prevent it from getting too tall */
+  overflow: hidden;
+}
+
+/* Modal Content */
+.download-modal .modal-content {
+  background-color: #000; /* Black background */
+  color: white; /* White text */
+  padding: 30px;
+  border-radius: 15px; /* Rounded corners */
+  width: 100%;
+  max-height: 90vh;
+  text-align: left;
+  overflow-y: auto; /* Enables vertical scrolling if content overflows */
+  position: relative;
+}
+
+/* Changelog Section */
+.modal-content h3 {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.modal-content pre {
+  text-align: left;
+  font-size: 0.9rem;
+  margin: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Scrollable Changelog */
+.modal-content .modal-changelog {
+  max-height: 60vh; /* Limit changelog height */
+  overflow-y: auto; /* Enable scrolling */
+  margin-bottom: 20px;
+}
+
+/* Download Button */
+.download-button {
+  background-color: purple;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #800080; /* Darker purple on hover */
+}
+
+/* Close Button */
+.close-button {
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.close-button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Responsive Fix for Small Screens */
+@media (max-width: 600px) {
+  .download-modal .modal-content {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .download-button {
+    padding: 12px 20px;
+    font-size: 1rem;
+  }
+
+  .close-button {
+    font-size: 0.9rem;
+  }
+}
