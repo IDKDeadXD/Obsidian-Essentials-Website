@@ -68,16 +68,6 @@ export default [
     exact: true
   },
   {
-    path: '/changelogs',
-    component: ComponentCreator('/changelogs', '959'),
-    exact: true
-  },
-  {
-    path: '/download',
-    component: ComponentCreator('/download', '7ff'),
-    exact: true
-  },
-  {
     path: '/docs',
     component: ComponentCreator('/docs', '397'),
     routes: [

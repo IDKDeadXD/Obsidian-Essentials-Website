@@ -69,11 +69,6 @@ export default {
           "to": "/changelogs",
           "label": "Change Logs",
           "position": "left"
-        },
-        {
-          "href": "https://www.mediafire.com/folder/jtlpl10wk86py/Obsidian_Essentials",
-          "label": "Downloads",
-          "position": "left"
         }
       ],
       "hideOnScroll": false

@@ -112,20 +112,6 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-website-announcement-19-f-95f"
   },
-  "/changelogs-959": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
-    "__context": {
-      "plugin": "plugin---changelogs-7-dd-37a"
-    },
-    "content": "content---changelogs-9-da-a8c"
-  },
-  "/download-7ff": {
-    "__comp": "__comp---site-src-pages-download-jsf-15-069",
-    "__context": {
-      "plugin": "plugin---changelogs-7-dd-37a"
-    },
-    "config": "config---download-5-e-9-a88"
-  },
   "/docs-397": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {

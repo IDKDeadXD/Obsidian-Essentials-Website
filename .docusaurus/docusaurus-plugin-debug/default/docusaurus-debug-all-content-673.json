@@ -673,20 +673,6 @@
   "docusaurus-plugin-content-pages": {
     "default": [
       {
-        "type": "mdx",
-        "permalink": "/changelogs",
-        "source": "@site/src/pages/changelogs.md",
-        "title": "Obsidian Essentials - V1.1.0",
-        "description": "_",
-        "frontMatter": {},
-        "unlisted": false
-      },
-      {
-        "type": "jsx",
-        "permalink": "/download",
-        "source": "@site/src/pages/download.js"
-      },
-      {
         "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.js"
