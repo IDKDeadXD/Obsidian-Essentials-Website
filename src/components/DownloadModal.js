@@ -42,9 +42,15 @@ const DownloadModal = ({ isOpen, onClose }) => {
           Download Now
         </button>
 
-        <button className="close-button" onClick={onClose}>
-          Close
-        </button>
+        <div className="flex">
+  <button className="close-button" onClick={onClose}>
+    Close
+  </button>
+  <button 
+    className="close-button" 
+    onClick={() => window.open('https://report.obsidian-essentials.com/', '_blank')}
+  >Bug Report</button>
+</div>
       </div>
     </Modal>
   );
