@@ -29,7 +29,7 @@ export default function Home() {
           <a href="https://discord.gg/CDbtnyJMUY" target="_blank" rel="noopener noreferrer" style={{ color: '#7289da' }}>
             <FaDiscord />
           </a>
-          <a href="https://github.com/deadstudios/Obsidian-Essentials-Website" target="_blank" rel="noopener noreferrer" style={{ color: '#333' }}>
+          <a href="https://github.com/IDKDeadXD/Obsidian-Essentials-Website" target="_blank" rel="noopener noreferrer" style={{ color: '#333' }}>
             <FaGithub />
           </a>
         </div>
