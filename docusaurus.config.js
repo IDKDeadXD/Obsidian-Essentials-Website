@@ -72,15 +72,15 @@ const config = {
 
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      /*
+      
       announcementBar: {
-        id: 'launch',
-        content:'Offical Launch Of Our Website!',
+        id: 'outdated',
+        content:'This website is outdated and is currently being redone',
         backgroundColor: 'var(--primary-400)',
        textColor: '#000',
-       isCloseable: true,
+       isCloseable: false,
       },
-      */
+      
       colorMode: {
         "defaultMode": "dark",
         "respectPrefersColorScheme": false,
