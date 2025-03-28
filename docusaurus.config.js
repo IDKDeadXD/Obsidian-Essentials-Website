@@ -6,7 +6,7 @@
 
 
 import sidebars from './sidebars';
-
+// Quick fix
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Obsidian Essentials',
