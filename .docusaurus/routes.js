@@ -4,186 +4,145 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'a43'),
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'e73'),
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '464'),
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '583'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '802'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '981'),
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '9c9'),
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    exact: true
+  },
+  {
+    path: '/admin/dashboard',
+    component: ComponentCreator('/admin/dashboard', '9b4'),
+    exact: true
+  },
+  {
+    path: '/admin/login',
+    component: ComponentCreator('/admin/login', '76d'),
     exact: true
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'b83'),
+    component: ComponentCreator('/blog', 'b2f'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', 'cfc'),
+    component: ComponentCreator('/blog/archive', '182'),
     exact: true
   },
   {
-    path: '/blog/docs-info-update',
-    component: ComponentCreator('/blog/docs-info-update', '467'),
+    path: '/blog/authors',
+    component: ComponentCreator('/blog/authors', '0b7'),
+    exact: true
+  },
+  {
+    path: '/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '4a1'),
+    exact: true
+  },
+  {
+    path: '/blog/authors/yangshun',
+    component: ComponentCreator('/blog/authors/yangshun', 'a68'),
+    exact: true
+  },
+  {
+    path: '/blog/first-blog-post',
+    component: ComponentCreator('/blog/first-blog-post', '89a'),
+    exact: true
+  },
+  {
+    path: '/blog/long-blog-post',
+    component: ComponentCreator('/blog/long-blog-post', '9ad'),
+    exact: true
+  },
+  {
+    path: '/blog/mdx-blog-post',
+    component: ComponentCreator('/blog/mdx-blog-post', 'e9f'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '37a'),
+    component: ComponentCreator('/blog/tags', '287'),
     exact: true
   },
   {
-    path: '/blog/tags/website',
-    component: ComponentCreator('/blog/tags/website', '4f5'),
+    path: '/blog/tags/docusaurus',
+    component: ComponentCreator('/blog/tags/docusaurus', '704'),
     exact: true
   },
   {
-    path: '/blog/website-announcement',
-    component: ComponentCreator('/blog/website-announcement', '976'),
+    path: '/blog/tags/facebook',
+    component: ComponentCreator('/blog/tags/facebook', '858'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/hello',
+    component: ComponentCreator('/blog/tags/hello', '299'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/hola',
+    component: ComponentCreator('/blog/tags/hola', '00d'),
+    exact: true
+  },
+  {
+    path: '/blog/welcome',
+    component: ComponentCreator('/blog/welcome', 'd2b'),
+    exact: true
+  },
+  {
+    path: '/markdown-page',
+    component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '397'),
+    component: ComponentCreator('/docs', 'c40'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '211'),
+        component: ComponentCreator('/docs', 'a6b'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'a7e'),
+            component: ComponentCreator('/docs', 'd0b'),
             routes: [
               {
-                path: '/docs/@Updates/1-8-25',
-                component: ComponentCreator('/docs/@Updates/1-8-25', 'cfb'),
+                path: '/docs/intro',
+                component: ComponentCreator('/docs/intro', '61d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Admin Panel/announcements',
-                component: ComponentCreator('/docs/Admin Panel/announcements', '451'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Admin Panel/ban-system',
-                component: ComponentCreator('/docs/Admin Panel/ban-system', '006'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Admin Panel/custom-commands',
-                component: ComponentCreator('/docs/Admin Panel/custom-commands', '8d9'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Admin Panel/floating-text',
-                component: ComponentCreator('/docs/Admin Panel/floating-text', '680'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Admin Panel/lag-zapper',
-                component: ComponentCreator('/docs/Admin Panel/lag-zapper', 'e57'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Admin Panel/mob-banning',
-                component: ComponentCreator('/docs/Admin Panel/mob-banning', '807'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Admin Panel/player-options',
-                component: ComponentCreator('/docs/Admin Panel/player-options', '311'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Admin Panel/polls',
-                component: ComponentCreator('/docs/Admin Panel/polls', '577'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Admin Panel/ranks',
-                component: ComponentCreator('/docs/Admin Panel/ranks', '44d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Admin Panel/rules-menu',
-                component: ComponentCreator('/docs/Admin Panel/rules-menu', '317'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Admin Panel/sidebar-creator',
-                component: ComponentCreator('/docs/Admin Panel/sidebar-creator', '2c9'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Admin Panel/spawn-protection',
-                component: ComponentCreator('/docs/Admin Panel/spawn-protection', 'be6'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Commands/codes',
-                component: ComponentCreator('/docs/Commands/codes', '976'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Commands/help-command',
-                component: ComponentCreator('/docs/Commands/help-command', 'b7e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Commands/item-blacklist',
-                component: ComponentCreator('/docs/Commands/item-blacklist', '655'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Community Panel/player-shops',
-                component: ComponentCreator('/docs/Community Panel/player-shops', '3a3'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Community Panel/report-system',
-                component: ComponentCreator('/docs/Community Panel/report-system', '966'),
+                path: '/docs/lol',
+                component: ComponentCreator('/docs/lol', '776'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -195,7 +154,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '25e'),
+    component: ComponentCreator('/', '2e1'),
     exact: true
   },
   {

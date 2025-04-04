@@ -1,5 +1,23 @@
-dead:
- name: Dead
- title: Head Developer
- url: https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley
- image_url: https://cdn.discordapp.com/avatars/609579584987594754/125a7f7830cf0255fb2b6344b451f4fd?size=1024
+yangshun:
+  name: Yangshun Tay
+  title: Front End Engineer @ Facebook
+  url: https://github.com/yangshun
+  image_url: https://github.com/yangshun.png
+  page: true
+  socials:
+    x: yangshunz
+    github: yangshun
+
+slorber:
+  name: Sébastien Lorber
+  title: Docusaurus maintainer
+  url: https://sebastienlorber.com
+  image_url: https://github.com/slorber.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/all-sebastien-lorber-articles'
+  socials:
+    x: sebastienlorber
+    linkedin: sebastienlorber
+    github: slorber
+    newsletter: https://thisweekinreact.com

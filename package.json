@@ -1,5 +1,5 @@
 {
-  "name": "realm-essentials-website",
+  "name": "obsidian-essentials-2-0-web",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -14,25 +14,22 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "3.2.1",
-    "@docusaurus/preset-classic": "3.2.1",
+    "@docusaurus/core": "3.7.0",
+    "@docusaurus/preset-classic": "3.7.0",
     "@mdx-js/react": "^3.0.0",
-    "@supabase/supabase-js": "^2.42.4",
+    "@supabase/supabase-js": "^2.49.4",
     "clsx": "^2.0.0",
-    "docusaurus": "^1.14.7",
-    "moment": "^2.30.1",
+    "dotenv": "^16.4.7",
+    "lucide-react": "^0.487.0",
     "prism-react-renderer": "^2.3.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-icons": "^5.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.0.0",
     "react-markdown": "^10.1.0",
-    "react-modal": "^3.16.3",
-    "supabase": "^1.161.0"
+    "react-modal": "^3.16.3"
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.26.3",
-    "@docusaurus/module-type-aliases": "3.2.1",
-    "@docusaurus/types": "3.2.1"
+    "@docusaurus/module-type-aliases": "3.7.0",
+    "@docusaurus/types": "3.7.0"
   },
   "browserslist": {
     "production": [

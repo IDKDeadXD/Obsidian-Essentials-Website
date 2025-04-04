@@ -69,6 +69,11 @@ export default {
           "to": "/changelogs",
           "label": "Change Logs",
           "position": "left"
+        },
+        {
+          "to": "/admin/login",
+          "label": "Login",
+          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -78,6 +83,11 @@ export default {
       "sidebar": {
         "hideable": false,
         "autoCollapseCategories": false
+      }
+    },
+    "blog": {
+      "sidebar": {
+        "groupByYear": true
       }
     },
     "metadata": [],
@@ -229,6 +239,21 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "future": {
+    "experimental_faster": {
+      "swcJsLoader": false,
+      "swcJsMinimizer": false,
+      "swcHtmlMinimizer": false,
+      "lightningCssMinimizer": false,
+      "mdxCrossCompilerCache": false,
+      "rspackBundler": false
+    },
+    "experimental_storage": {
+      "type": "localStorage",
+      "namespace": false
+    },
+    "experimental_router": "browser"
+  },
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
@@ -250,6 +275,9 @@ export default {
       "comments": true,
       "admonitions": true,
       "headingIds": true
+    },
+    "anchors": {
+      "maintainCase": false
     }
   }
 };

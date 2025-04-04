@@ -8,96 +8,16 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "@Updates/1-8-25",
+          "mainDocId": "intro",
           "docs": [
             {
-              "id": "@Updates/1-8-25",
-              "path": "/docs/@Updates/1-8-25",
+              "id": "intro",
+              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Admin Panel/announcements",
-              "path": "/docs/Admin Panel/announcements",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Admin Panel/ban-system",
-              "path": "/docs/Admin Panel/ban-system",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Admin Panel/custom-commands",
-              "path": "/docs/Admin Panel/custom-commands",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Admin Panel/floating-text",
-              "path": "/docs/Admin Panel/floating-text",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Admin Panel/lag-zapper",
-              "path": "/docs/Admin Panel/lag-zapper",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Admin Panel/mob-banning",
-              "path": "/docs/Admin Panel/mob-banning",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Admin Panel/player-options",
-              "path": "/docs/Admin Panel/player-options",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Admin Panel/polls",
-              "path": "/docs/Admin Panel/polls",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Admin Panel/ranks",
-              "path": "/docs/Admin Panel/ranks",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Admin Panel/rules-menu",
-              "path": "/docs/Admin Panel/rules-menu",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Admin Panel/sidebar-creator",
-              "path": "/docs/Admin Panel/sidebar-creator",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Admin Panel/spawn-protection",
-              "path": "/docs/Admin Panel/spawn-protection",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Commands/codes",
-              "path": "/docs/Commands/codes",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Commands/help-command",
-              "path": "/docs/Commands/help-command",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Commands/item-blacklist",
-              "path": "/docs/Commands/item-blacklist",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Community Panel/player-shops",
-              "path": "/docs/Community Panel/player-shops",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Community Panel/report-system",
-              "path": "/docs/Community Panel/report-system",
+              "id": "lol",
+              "path": "/docs/lol",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -105,8 +25,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/@Updates/1-8-25",
-                "label": "@Updates/1-8-25"
+                "path": "/docs/intro",
+                "label": "intro"
               }
             }
           }

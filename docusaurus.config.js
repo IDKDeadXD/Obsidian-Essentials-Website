@@ -4,8 +4,10 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-
+const webpack = require('webpack');
 import sidebars from './sidebars';
+
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -69,6 +71,8 @@ const config = {
 
   themeConfig:
 
+  
+
 
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -102,6 +106,7 @@ const config = {
          label: 'Documentation',
        },
           {to: '/changelogs', label: 'Change Logs', position: 'left' },
+          {to: '/admin/login', label: 'Login', position: 'right'}
         ],
       },
      
